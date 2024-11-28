@@ -1,4 +1,7 @@
 .home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
   height: full;
   max-height: fit-content;
   min-height: 100dvh;
@@ -6,9 +9,6 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 .title {
@@ -20,4 +20,38 @@
   grid-template-rows: auto 1fr;
   padding: 4rem;
   padding-left: 6rem;
+}
+
+.descriptionContainer {
+  display: grid;
+
+  padding: 4rem 6rem;
+}
+
+.alunos {
+  justify-self: end;
+  width: 6.25rem;
+  animation: pulsar 1s infinite alternate ease-out;
+  filter: drop-shadow(10px 10px 15px rgba(255, 255, 255, 0.3));
+}
+
+@keyframes pulsar {
+  from {
+    scale: 0.95;
+  }
+  to {
+    scale: 1;
+  }
+}
+
+.resume {
+  align-self: end;
+  justify-self: end;
+
+  font-size: 0.85rem;
+  text-align: center;
+  color: #a2a2a2;
+  font-weight: 500;
+
+  max-width: 26rem;
 }

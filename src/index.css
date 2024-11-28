@@ -5,7 +5,8 @@
   --accent: #999;
   --gray: #333;
 
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  font-family: 'inter'
 }
 
 * {
@@ -17,5 +18,6 @@
 }
 
 img {
+  display: block;
   width: 100%;
 }
