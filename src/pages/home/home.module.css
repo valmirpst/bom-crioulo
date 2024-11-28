@@ -11,9 +11,13 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.title {
+  margin-bottom: 2rem;
+}
+
 .left_side {
+  display: grid;
+  grid-template-rows: auto 1fr;
   padding: 4rem;
   padding-left: 6rem;
-  display: grid;
-  gap: 2rem;
 }
