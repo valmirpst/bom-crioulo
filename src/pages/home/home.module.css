@@ -23,11 +23,9 @@
 .resume {
   align-self: end;
   justify-self: end;
-
   font-size: 0.85rem;
   text-align: center;
   color: #a2a2a2;
   font-weight: 500;
-
   max-width: 26rem;
 }

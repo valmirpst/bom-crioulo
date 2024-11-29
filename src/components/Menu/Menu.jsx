@@ -1,19 +1,19 @@
-import styles from "./menu.module.css";
-import { NavLink } from "react-router-dom";
+import styles from './Menu.module.css';
+import { NavLink } from 'react-router-dom';
 
 export default function Menu() {
   return (
     <section className={styles.left_side}>
       <h1 className={styles.title}>Trabalho de Português</h1>
       <nav className={styles.navigation}>
-        <button className={styles.button}>
+        <NavLink to="/universidade" className={`${styles.button} ${styles.university}`} >
           <img src="./utfpr-logo.png" alt="image" />
           <span className={styles.button_title}>Instituição</span>
-        </button>
-        <button className={styles.button}>
+        </NavLink>
+        <NavLink to="/personagens" className={`${styles.button} ${styles.personagens}`} >
           <img src="./personagens-icon.png" alt="image" />
           <span className={styles.button_title}>Personagens</span>
-        </button>
+        </NavLink>
         <NavLink to="/book" className={`${styles.button} ${styles.book}`}>
           <img src="./book.png" alt="image" />
           <span className={styles.button_title}>Livro e Autor</span>
