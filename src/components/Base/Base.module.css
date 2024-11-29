@@ -1,12 +1,15 @@
 .base {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 24rem 1fr;
 
   height: full;
   max-height: fit-content;
   min-height: 100dvh;
+
   background: url("./bg.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  overflow: hidden;
 }

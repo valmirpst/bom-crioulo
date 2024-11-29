@@ -1,0 +1,71 @@
+.BookContainer {
+  background-color: #2c2c2cfa;
+  animation: toLeft 0.5s ease-out;
+  padding: 3rem;
+  overflow-y: scroll;
+  height: 100vh;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.arrow {
+  display: block;
+  width: 3rem;
+}
+
+.arrowIcon {
+  width: 2.5rem;
+  transition: 0.1s;
+  fill: white;
+}
+
+.arrowIcon:hover {
+  fill: #a5a5a5;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle::before {
+  content: "";
+  display: block;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: var(--text);
+}
+
+.titleContainer img {
+  width: 2rem;
+}
+
+.bookDescriptionContainer {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 3rem;
+}
+
+.bookDescriptionContainer img {
+  width: 18.75rem;
+}
+
+@keyframes toLeft {
+  from {
+    transform: translateX(20rem);
+  }
+  to {
+    transform: initial;
+  }
+}
