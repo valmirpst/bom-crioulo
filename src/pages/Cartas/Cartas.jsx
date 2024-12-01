@@ -32,6 +32,27 @@ export default function Cartas() {
       </div>
 
       <div className={styles.cartaContainer}>
+        <p className={styles.author}>Carta escrita por Aleixo enviada à Bom Crioulo</p>
+        <p className={styles.content}>
+          Meu caro Amaro, <br />
+          Espero que esta carta te encontre em boa saúde e serenidade. Por aqui,
+          tudo segue tranquilo, ainda que a saudade da tua presença pese em meu
+          coração. Apesar disso, posso te assegurar que Carolina tem cuidado de
+          mim com atenção e generosidade que muito me confortam. Sei que nossas
+          separações nunca foram fáceis, mas a vida, como sabes, traz mudanças
+          inevitáveis. Carolina tem sido um grande amparo, e sou grato por sua
+          dedicação e amizade. <br />
+          Quanto a mim, não te preocupes. Ainda que a
+          distância seja desafiadora, aceito que faz parte do caminho que
+          escolhemos seguir. Desejo que teus dias sejam leves e plenos de paz.
+          Não deixes que o silêncio nos afaste, pois, no fundo, a vida sempre
+          encontra um jeito de nos aproximar, mesmo que de outras formas. <br />
+          Com estima, <br />
+          Aleixo
+        </p>
+      </div>
+
+      <div className={styles.cartaContainer}>
         <p className={styles.author}>Carta escrita por Carolina enviada à Bom Crioulo</p>
         <p className={styles.content}>
           Meu caro Amaro, <br />
