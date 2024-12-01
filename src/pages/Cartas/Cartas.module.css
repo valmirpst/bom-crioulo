@@ -6,6 +6,24 @@
   height: 100vh;
   text-align: justify;
   line-height: 1.5;
+  
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  
+}
+
+.titleContainer img {
+  width: 6rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: #fff;
 }
 
 .subtitle {
@@ -25,14 +43,30 @@
   background-color: var(--text);
 }
 
-.bookDescriptionContainer {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 3rem;
+.cartaContainer {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  background-color: #3e3e3e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.bookDescriptionContainer img {
-  width: 18.75rem;
+.cartaContainer p {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.cartaContainer .author {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+
+.cartaContainer .content {
+  margin-top: 1rem;
+  font-style: italic;
 }
 
 @keyframes toLeft {

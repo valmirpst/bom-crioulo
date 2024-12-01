@@ -14,9 +14,6 @@
   fill: white;
 }
 
-.arrowIcon:hover {
-  fill: #a5a5a5;
-}
 
 .titleContainer {
   display: flex;
