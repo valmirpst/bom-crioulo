@@ -5,7 +5,7 @@
 ### Alunos
 
 - Amanda Soares Vieira
-- Lara Deitos
+- Lara Heloisa Deitos
 - Matheus Teodoro Garcia
 - Natália Campos Soares
 - Valmir Paiva Stachin
