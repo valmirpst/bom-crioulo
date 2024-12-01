@@ -6,6 +6,8 @@ import { Personagens } from "./pages/Personagens/Personagens";
 import Menu from "./components/Menu/Menu";
 import Base from "./components/Base/Base";
 import { AppContextProvider } from "./context/AppContext";
+import Alunos from "./pages/Alunos/Alunos";
+import Cartas from "./pages/Cartas/Cartas";
 
 export default function App() {
   return (
@@ -16,8 +18,10 @@ export default function App() {
           <Routes>
             <Route index path="/" element={<Home />} />
             <Route index path="/book" element={<Book />} />
-            <Route index path="/Universidade" element={<Universidade />} />
-            <Route index path="/Personagens" element={<Personagens />} />
+            <Route index path="/universidade" element={<Universidade />} />
+            <Route index path="/personagens" element={<Personagens />} />
+            <Route index path="/alunos" element={<Alunos />} />
+            <Route index path="/cartas" element={<Cartas />} />
           </Routes>
         </Base>
       </BrowserRouter>

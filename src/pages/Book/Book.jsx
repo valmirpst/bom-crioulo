@@ -1,27 +1,13 @@
-import { NavLink } from 'react-router-dom';
-import styles from './Book.module.css';
+import styles from "./Book.module.css";
+import { TitleContainer } from "../../components/TitleContainer";
 
 export default function Book() {
   return (
     <main className={styles.BookContainer}>
-      <div className={styles.titleContainer}>
-        <NavLink to="/">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            className={styles.arrowIcon}
-            viewBox="0 0 16 16"
-          >
-            <path
-              fillRule="evenodd"
-              d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"
-            />
-          </svg>
-        </NavLink>
-        <h2 className={styles.title}>Livro e Autor</h2> 
+      <TitleContainer>
+        <h2 className={styles.title}>Livro e Autor</h2>
         <img src="book.png" alt="" />
-      </div>
-
+      </TitleContainer>
       <h3 className={styles.subtitle}>Livro</h3>
       <div className={styles.bookDescriptionContainer}>
         <p className={styles.paragraph}>
@@ -45,26 +31,24 @@ export default function Book() {
 
       <h3 className={styles.subtitle}>Autor</h3>
       <div className={styles.bookDescriptionContainer}>
-
         <p className={styles.paragraph}>
           Adolfo Caminha (1867–1900) foi um escritor e jornalista brasileiro,
           destacado no naturalismo e realismo literário. Nascido em Fortaleza,
           viveu durante transformações como a abolição da escravatura e a
           Proclamação da República. Embora tenha formado em Direito, se dedicou
           ao jornalismo e à literatura, principalmente no Rio de Janeiro.
-          Caminha é conhecido por obras como <b>O Bom Crioulo</b>, que abordam temas
-          polêmicos, como homossexualidade, marginalização social e violência
-          urbana. Seus livros, como <b>A Normalista</b> e <b>Na Capital</b>, exploram os
-          dilemas do Brasil pós-abolição, com uma abordagem realista e direta,
-          inspirada por escritores como <b>Émile Zola</b> Sua produção literária foi
-          curta, mas influente, destacando-se pela crítica social e pela
-          exploração da sexualidade e das desigualdades. Morreu precocemente aos
-          33 anos, mas sua obra continua relevante na literatura brasileira.
+          Caminha é conhecido por obras como <b>O Bom Crioulo</b>, que abordam
+          temas polêmicos, como homossexualidade, marginalização social e
+          violência urbana. Seus livros, como <b>A Normalista</b> e{" "}
+          <b>Na Capital</b>, exploram os dilemas do Brasil pós-abolição, com uma
+          abordagem realista e direta, inspirada por escritores como{" "}
+          <b>Émile Zola</b> Sua produção literária foi curta, mas influente,
+          destacando-se pela crítica social e pela exploração da sexualidade e
+          das desigualdades. Morreu precocemente aos 33 anos, mas sua obra
+          continua relevante na literatura brasileira.
         </p>
         <img src="Adolfo_Caminha_.jpg" alt="" />
-        
       </div>
     </main>
   );
 }
-

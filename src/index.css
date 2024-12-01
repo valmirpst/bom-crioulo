@@ -6,7 +6,7 @@
   --gray: #333;
 
   /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
-  font-family: 'inter'
+  font-family: "inter";
 }
 
 * {
@@ -20,4 +20,13 @@
 img {
   display: block;
   width: 100%;
+}
+
+@keyframes toLeft {
+  from {
+    transform: translateX(20rem);
+  }
+  to {
+    transform: initial;
+  }
 }

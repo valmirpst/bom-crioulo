@@ -1,0 +1,25 @@
+.titleContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.titleContainer img {
+  width: 2rem;
+}
+
+.arrow {
+  display: block;
+  width: 3rem;
+}
+
+.arrowIcon {
+  width: 2.5rem;
+  transition: 0.1s;
+  fill: white;
+}
+
+.arrowIcon:hover {
+  fill: #a5a5a5;
+}

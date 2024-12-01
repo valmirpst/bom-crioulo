@@ -1,14 +1,29 @@
 .descriptionContainer {
   display: grid;
-
-  padding: 4rem 6rem;
+  padding: 3rem 6rem;
 }
 
 .alunos {
-  justify-self: end;
-  width: 6.25rem;
   animation: pulsar 1s infinite alternate ease-out;
   filter: drop-shadow(10px 10px 15px rgba(255, 255, 255, 0.3));
+}
+
+.rightMenu {
+  height: max-content;
+  display: grid;
+  gap: 1.5rem;
+  justify-content: center;
+  justify-items: top;
+  width: 6.25rem;
+  justify-self: end;
+}
+
+.rightMenu a {
+  margin: auto;
+}
+
+.carta {
+  width: 4.5rem;
 }
 
 @keyframes pulsar {

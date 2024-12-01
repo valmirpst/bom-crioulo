@@ -1,26 +1,12 @@
-import { NavLink } from "react-router-dom";
 import styles from "./Personagens.module.css";
+import { TitleContainer } from "../../components/TitleContainer";
 
 export function Personagens() {
   return (
     <main className={styles.PersonagensContainer}>
-      <div className={styles.titleContainer}>
-        <NavLink to="/">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            className={styles.arrowIcon}
-            viewBox="0 0 16 16"
-          >
-            <path
-              fillRule="evenodd"
-              d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"
-            />
-          </svg>
-        </NavLink>
-
+      <TitleContainer>
         <h1 className={styles.title}>Personagens</h1>
-      </div>
+      </TitleContainer>
 
       <p className={styles.subtitle}>Bom-Crioulo</p>
       <div className={styles.descriptionContainer}>
@@ -93,13 +79,12 @@ export function Personagens() {
           exatamente como lidar com os homens ao seu redor. Sua atitude
           desafiadora e, por vezes, debochada, provoca em Amaro um ciúmes que
           será um dos principais motores da tensão no romance.
-          <br />
-          A personagem é, portanto, uma mulher de contrastes: ao mesmo tempo
-          acolhedora e sedutora, maternal e manipuladora, ela é uma presença
-          fundamental na história, ajudando a aprofundar as relações entre os
-          outros personagens, especialmente a dinâmica entre Amaro e Aleixo. Sua
-          habilidade em jogar com os sentimentos alheios faz dela uma personagem
-          complexa, que não pode ser facilmente rotulada.
+          <br />A personagem é, portanto, uma mulher de contrastes: ao mesmo
+          tempo acolhedora e sedutora, maternal e manipuladora, ela é uma
+          presença fundamental na história, ajudando a aprofundar as relações
+          entre os outros personagens, especialmente a dinâmica entre Amaro e
+          Aleixo. Sua habilidade em jogar com os sentimentos alheios faz dela
+          uma personagem complexa, que não pode ser facilmente rotulada.
         </p>
         <img
           src="Carolina.png"

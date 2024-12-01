@@ -1,18 +1,24 @@
 .title {
   margin-bottom: 2rem;
+  font-size: 1.5rem;
+  white-space: nowrap;
 }
 
 .left_side {
   display: grid;
   grid-template-rows: auto 1fr;
-  padding: 4rem;
+  padding: 3rem;
   padding-left: 6rem;
 }
 
 .navigation {
   display: grid;
-  gap: 2rem;
+  gap: 1.5rem;
   align-self: end;
+}
+
+.natigationActive {
+  grid-template-columns: 1fr 1fr;
 }
 
 .navigation > .button {
@@ -44,10 +50,15 @@
   transition: 0.2s;
 }
 
-.navigation > .button:hover {
-  background-color: #ffffff0a;
-  border: 1px solid rgba(var(--primary-rgb), 0.2);
-  box-shadow: -2px 2px 4px #00000010;
+.cartaImg {
+  width: 70px;
+}
+
+.navigation > .button:hover,
+.buttonActive {
+  background-color: #ffffff0a !important;
+  border: 1px solid rgba(var(--primary-rgb), 0.2) !important;
+  box-shadow: -2px 2px 4px #00000010 !important;
 }
 
 .navigation > .button:hover img {

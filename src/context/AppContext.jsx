@@ -10,7 +10,7 @@ export function useAppContext() {
 }
 
 export function AppContextProvider({ children }) {
-  const [activePage, setActivePage] = useState("");
+  const [activePage, setActivePage] = useState("home");
 
   const data = {
     activePage,

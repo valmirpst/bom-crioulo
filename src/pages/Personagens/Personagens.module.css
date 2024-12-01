@@ -1,5 +1,5 @@
 .PersonagensContainer {
-  background-color: #2c2c2cfa; 
+  background-color: #2c2c2cfa;
   animation: toLeft 0.5s ease-out;
   padding: 3rem;
   overflow-y: scroll;
@@ -43,21 +43,23 @@
 }
 
 .titleContainer img {
-  width: 6rem; 
+  width: 6rem;
 }
 
 .descriptionContainer {
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 3rem;
-  gap: 2rem; 
+  gap: 2rem;
   margin-bottom: 2rem;
 }
 
 .personagemImage {
   width: 18.75rem;
-  height: 18.75rem; 
-  border-radius: 12.5rem;     /*alguem mexe please, nao consegui*/
+  height: 18.75rem;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
 }
 
 .paragraph {
