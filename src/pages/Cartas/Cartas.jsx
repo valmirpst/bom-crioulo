@@ -10,7 +10,7 @@ export default function Cartas() {
       </TitleContainer>
 
       <div className={styles.cartaContainer}>
-        <p className={styles.author} >Carta escrita por Bom Crioulo enviada à Aleixo</p>
+        <p className={styles.author} >Carta escrita por Bom Crioulo enviada ao Aleixo</p>
         <p className={styles.content}>
           Meu querido Aleixo, <br />
           Desde que nossos caminhos se separaram, sinto tua ausência como um eco
@@ -32,7 +32,7 @@ export default function Cartas() {
       </div>
 
       <div className={styles.cartaContainer}>
-        <p className={styles.author}>Carta escrita por Aleixo enviada à Bom Crioulo</p>
+        <p className={styles.author}>Carta escrita por Aleixo enviada ao Bom Crioulo</p>
         <p className={styles.content}>
           Meu caro Amaro, <br />
           Espero que esta carta te encontre em boa saúde e serenidade. Por aqui,
@@ -53,7 +53,7 @@ export default function Cartas() {
       </div>
 
       <div className={styles.cartaContainer}>
-        <p className={styles.author}>Carta escrita por Carolina enviada à Bom Crioulo</p>
+        <p className={styles.author}>Carta escrita por Carolina enviada ao Bom Crioulo</p>
         <p className={styles.content}>
           Meu caro Amaro, <br />
           Espero que esta carta te encontre bem, onde quer que estejas. Por
